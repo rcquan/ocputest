@@ -1,0 +1,14 @@
+Package: ocputest
+Type: Package
+Title: Linear Model API
+Version: 0.1
+Date: 2015-07-22
+Authors@R: person("Ryan", "Quan", email="ryan.quan@omadahealth.com", role=c("aut", "cre"))
+Maintiner@R: person("Ryan", "Quan", email="ryan.quan@omadahealth.com", role=c("aut", "cre"))
+Description: Predicts week 16 weight loss given user data.
+License: Proprietary
+LazyData: TRUE
+Imports: 
+  data.table,
+  lubridate
+Suggests: testthat
